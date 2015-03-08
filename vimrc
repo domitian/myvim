@@ -9,3 +9,5 @@ set number
 set tabstop=4
 set autoindent
 set relativenumber
+vnoremap . :norm.<CR>
+set ruler
