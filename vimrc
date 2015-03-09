@@ -11,3 +11,15 @@ set autoindent
 set relativenumber
 vnoremap . :norm.<CR>
 set ruler
+set showmode
+set showcmd
+set title
+set wildmenu
+
+
+set ignorecase
+set smartcase
+set smartindent
+set smarttab
+set grepprg=ack
+let mapleader = ","
