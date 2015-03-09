@@ -6,7 +6,9 @@ filetype plugin indent on
 syntax on
 set encoding=utf-8
 set number
-set tabstop=4
+set tabstop=2
+set shiftwidth=2
+set expandtab
 set autoindent
 set relativenumber
 vnoremap . :norm.<CR>
