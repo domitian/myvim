@@ -6,22 +6,21 @@ filetype plugin indent on
 syntax on
 set encoding=utf-8
 set number
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set autoindent
-set relativenumber
 vnoremap . :norm.<CR>
 set ruler
 set showmode
 set showcmd
 set title
 set wildmenu
-
-
+set background=light
+colorscheme elflord 
 set ignorecase
 set smartcase
 set smartindent
-set smarttab
 set grepprg=ack
 let mapleader = ","
+set hlsearch
