@@ -24,3 +24,5 @@ set smartindent
 set grepprg=ack
 let mapleader = ","
 set hlsearch
+let g:airline#extensions#tabline#enabled = 1
+let mapleader = "\<Space>"
