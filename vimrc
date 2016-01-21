@@ -26,3 +26,4 @@ let mapleader = ","
 set hlsearch
 let g:airline#extensions#tabline#enabled = 1
 let mapleader = "\<Space>"
+set clipboard=unnamed
